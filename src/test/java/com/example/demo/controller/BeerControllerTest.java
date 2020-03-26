@@ -51,7 +51,5 @@ class BeerControllerTest {
                 .content(beerDtoJson))
                 .andExpect(status().isCreated());
 
-
-
     }
 }
